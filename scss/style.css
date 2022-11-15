@@ -1,0 +1,153 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 100%;
+}
+
+.header {
+  width: 1440px;
+  height: 2118px;
+}
+
+.section-gradient-the-dark {
+  min-height: calc(100vh - 20px);
+  border-radius: 0 0 12px 12px;
+  position: relative;
+  margin-bottom: 20px;
+  background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+  border-radius: 0px 0px 12px 12px;
+}
+
+.section-gradient-shadow-1 {
+  bottom: -10px;
+  width: calc(100% - 40px);
+  background-color: #cacadb;
+  left: 20px;
+}
+
+.section-gradient-shadow-2 {
+  bottom: -20px;
+  width: calc(100% - 80px);
+  background-color: #e7e7f2;
+  left: 40px;
+}
+
+.main-wrap {
+  min-height: calc(100vh - 20px);
+  position: relative;
+}
+
+.main-wrap-bg {
+  position: absolute;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.main-wrap-content {
+  position: relative;
+  min-height: calc(100vh - 20px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main-header {
+  display: grid;
+  column-gap: 20px;
+  padding-top: 50px;
+  grid-template-areas: "logo";
+}
+
+.logo {
+  width: 100%;
+  max-width: 130px;
+}
+
+.main-header-info {
+  grid-area: info;
+  margin-bottom: 30px;
+}
+
+.main-header-info, .main-header-nav {
+  justify-self: end;
+}
+
+.btn-lang {
+  border: none;
+  background-color: transparent;
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 5px 7px;
+  border-radius: 8px;
+}
+
+.header-adress {
+  padding-left: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  line-height: 19.5px;
+}
+
+h3 {
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -text-fill-color: transparent;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+}
+
+a {
+  display: block;
+  font-weight: 700;
+  color: #24A3FF;
+}
+
+.company {
+  background: #FFFFFF;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.companys {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.company-holder {
+  width: 100%;
+  padding: 20px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.company-holder img {
+  max-height: 100%;
+}
+
+.articles {
+  background: #F5F5FA;
+}/*# sourceMappingURL=style.css.map */
