@@ -1,5 +1,5 @@
 header .container {
-  padding-top: 40px;
+  padding: 40px 0;
   justify-content: space-between;
   display: flex;
 }
@@ -51,6 +51,10 @@ header .container {
   color: #F0145A;
 }
 
+.center {
+  text-align: center;
+}
+
 .publications {
   background: #F5F5FA;
 }
@@ -80,24 +84,24 @@ p {
   line-height: 22px;
 }
 
+.publications .container {
+  padding: 20px 0;
+}
+
 .button-publications {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-}
-
-.button {
-  width: 105px;
-  height: 38px;
-  background: #FFFFFF;
-  border-radius: 10px;
-}
-
-.button-grey {
-  width: 233px;
-  height: 42px;
-  background: #E6E6F0;
+  display: inline-block;
+  background-color: #E6E6F0;
   border-radius: 12px;
+  border: 1px solid #E6E6F0;
+}
+.button-publications span {
+  display: inline-block;
+  padding: 10px 25px;
+  font-weight: bold;
+  border-radius: 12px;
+}
+.button-publications span.active {
+  background-color: #fff;
 }
 
 .box-articles {

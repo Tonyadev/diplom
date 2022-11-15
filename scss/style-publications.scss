@@ -1,14 +1,12 @@
 header .container {
-    padding-top: 40px;
+    padding: 40px 0;
     justify-content: space-between;
     display: flex;
 }
 
-
 .logo {
     display: inline-block;
 }
-
 
 .right-side {
     display: inline-block;
@@ -57,6 +55,10 @@ header .container {
     }
 }
 
+.center {
+    text-align: center;
+}
+
 .publications {
     background: #F5F5FA;
 }
@@ -81,23 +83,25 @@ p {
     font-size: 14px;
     line-height: 22px;
 }
-.button-publications{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-}
-.button {
-    width: 105px;
-    height: 38px;
-    background: #FFFFFF;
-    border-radius: 10px;
+
+.publications .container {
+    padding: 20px 0;
 }
 
-.button-grey {
-    width: 233px;
-    height: 42px;
-    background: #E6E6F0;
+.button-publications {
+    display: inline-block;
+    background-color: #E6E6F0;
     border-radius: 12px;
+    border: 1px solid #E6E6F0;
+    span {
+        display: inline-block;
+        padding: 10px 25px;
+        font-weight: bold; 
+        border-radius: 12px;
+    }
+    span.active {
+        background-color: #fff;
+    }
 }
 
 .box-articles {
