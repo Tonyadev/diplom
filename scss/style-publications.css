@@ -60,16 +60,33 @@ header .container {
 }
 
 .article img {
-  max-width: 100%;
-  height: 100%;
+  width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 8px 8px 0px 0px;
+}
+
+.article .content {
   padding: 30px;
+}
+
+.article p.date {
+  text-transform: uppercase;
+  color: #B3B3BA;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px 0;
+  border-bottom: 4px solid #E6E6F0;
+}
+
+.article p.text {
+  padding: 10px 0;
+  font-size: 14px;
 }
 
 h2 {
   color: #24A3FF;
+  font-weight: bold;
 }
 
 .container {
@@ -107,25 +124,5 @@ p {
 .box-articles {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 200px;
-}
-
-.article-1 {
-  background: url(../image/page2/Cover1.png), no-repeat;
-}
-
-.article-2 {
-  background: url(../image/page2/Cover2.png);
-}
-
-.article-3 {
-  background: url(../image/page2/Cover3.png);
-}
-
-.article-4 {
-  background: url(../image/page2/Cover4.png);
-}
-
-.article-5 {
-  background: url(../image/page2/Cover5.png);
+  grid-auto-rows: 500px;
 }/*# sourceMappingURL=style-publications.css.map */
